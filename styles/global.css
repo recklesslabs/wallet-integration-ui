@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: "Greycliff CF";
+  src: url("./GreycliffCF-Heavy.woff2") format("woff2"),
+    url("./GreycliffCF-Heavy.woff") format("woff"),
+    url("./GreycliffCF-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
